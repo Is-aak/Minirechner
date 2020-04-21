@@ -1,0 +1,4 @@
+C:\Users\Isaak\Desktop\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.exe
+C:\Users\Isaak\Desktop\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.pdb
+C:\Users\Isaak\Desktop\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.exe
+C:\Users\Isaak\Desktop\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.pdb
