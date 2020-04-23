@@ -13,17 +13,27 @@ namespace Minirechner
             int Zahl2;
             int ErgebnissAd;
             int ErgebnissSub;
+            int ErgebnissMul;
 
+            Console.Write("Zahl 1 = ");
             Zahl1 = Convert.ToInt32(Console.ReadLine());
-            Zahl2 = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write("Zahl 2 = ");
+            Zahl2 = Convert.ToInt32(Console.ReadLine());
+          
             ErgebnissAd = Addieren(Zahl1, Zahl2);
 
+            Console.Write("Ergebniss Addition = ");
             Console.WriteLine(ErgebnissAd);
 
             ErgebnissSub = Subtrahieren(Zahl1, Zahl2);
 
+            Console.Write("Ergebniss Subtraktion = ");
             Console.WriteLine(ErgebnissSub);
+
+            ErgebnissMul = Multipliezieren(Zahl1, Zahl2);
+            Console.Write("Ergebniss Multiplikation");
+            Console.WriteLine(ErgebnissMul);
 
             Console.ReadKey();
 
