@@ -11,14 +11,19 @@ namespace Minirechner
         {
             int Zahl1;
             int Zahl2;
-            int Ergebniss;
+            int ErgebnissAd;
+            int ErgebnissSub;
 
             Zahl1 = Convert.ToInt32(Console.ReadLine());
             Zahl2 = Convert.ToInt32(Console.ReadLine());
 
-            Ergebniss = Addieren(Zahl1, Zahl2);
+            ErgebnissAd = Addieren(Zahl1, Zahl2);
 
-            Console.WriteLine(Ergebniss);
+            Console.WriteLine(ErgebnissAd);
+
+            ErgebnissSub = Subtrahieren(Zahl1, Zahl2);
+
+            Console.WriteLine(ErgebnissSub);
 
             Console.ReadKey();
 
