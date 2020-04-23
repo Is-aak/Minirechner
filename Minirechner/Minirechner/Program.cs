@@ -28,5 +28,10 @@ namespace Minirechner
             int Ergebniss = a + b;
             return Ergebniss;
         }
+        static int Subtrahieren(int a, int b)
+        {
+            int Ergebniss = a - b;
+            return Ergebniss;
+        }
     }
 }
