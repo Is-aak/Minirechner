@@ -16,12 +16,17 @@ namespace Minirechner
             Zahl1 = Convert.ToInt32(Console.ReadLine());
             Zahl2 = Convert.ToInt32(Console.ReadLine());
 
-            Ergebniss = Zahl1 + Zahl2;
+           
 
             Console.WriteLine(Ergebniss);
 
             Console.ReadKey();
 
+        }
+        static int Addieren(int a, int b) 
+        {
+            int Ergebniss = a + b;
+            return Ergebniss;
         }
     }
 }
