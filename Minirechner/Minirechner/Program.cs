@@ -16,7 +16,7 @@ namespace Minirechner
             Zahl1 = Convert.ToInt32(Console.ReadLine());
             Zahl2 = Convert.ToInt32(Console.ReadLine());
 
-           
+            Ergebniss = Addieren(Zahl1, Zahl2);
 
             Console.WriteLine(Ergebniss);
 
